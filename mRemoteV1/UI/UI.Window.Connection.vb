@@ -227,7 +227,7 @@ Namespace UI
                 Me.Text = FormText
                 Me.TabText = FormText
 
-                AddHandler mRemoteNG.App.Runtime.KeyComboHook.RaiseKeyCombo, AddressOf KeyboardHook_KeyCombo
+                'AddHandler mRemoteNG.App.Runtime.KeyComboHook.RaiseKeyCombo, AddressOf KeyboardHook_KeyCombo
             End Sub
 
             Protected Sub KeyboardHook_KeyCombo(ByVal keyCode As List(Of Integer))
